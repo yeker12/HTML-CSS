@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    color: white;
+}
