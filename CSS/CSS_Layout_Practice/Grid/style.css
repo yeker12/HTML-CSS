@@ -1,0 +1,11 @@
+.father{
+    display: flex;
+}
+
+.chil{
+    height: 200px;
+    width: 200px;
+    background-color:lightcoral;
+    color: black;
+    font-size: 30px;
+}
