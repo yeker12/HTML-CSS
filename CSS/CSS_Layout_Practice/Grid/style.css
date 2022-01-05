@@ -1,30 +1,31 @@
 .grid{
     display: grid;
-    grid-template-columns: auto 150px;
-    grid-template-rows: 50px repeat(2, 200px) 50px;
-    grid-template-areas: 
-    "header header header header"
-    "content content content nav"
-    "content content content nav"
-    "footer footer footer footer";
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4, 100px);
 }
 
 .header{
     background-color: burlywood;
-    grid-area: header;
+    grid-column-start: 1;
+    grid-column-end:  5;
 }
 
 .content{
     background-color: cornflowerblue;
-    grid-area: content;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
 .nav{
     background-color: lightcoral;
-    grid-area: nav;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
 .footer{
     background-color: lightseagreen;
-    grid-area: footer;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
