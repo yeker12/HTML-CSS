@@ -5,23 +5,39 @@
     justify-content: space-around;
     /*Cross Axis*/
     align-items: center;
-    height: 50vh;
+    height: 100vh;
+    flex-wrap: nowrap;
+    /*flex-direction: row-reverse;*/
+    /*align-content:flex-start;*/
 }
 
 .child{
-    width: 100px;
-    height: 100px;
+    flex-basis: 40%;
+    height: 200px;
     background-color: gold;
     color: black;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-child(2){
+    order: 1;
+    align-self:center;
 }
 
 .child:nth-child(1){
-    order: 1;
+    order: 2;
     align-self:flex-start;
+    background-color: cadetblue;
+    flex-shrink: 3;
 }
 
 .child:nth-child(3){
-    order: 2;
+    order: 3;
     align-self: flex-end;
+    background-color:palevioletred;
+    flex-grow: 1;
 }
+
