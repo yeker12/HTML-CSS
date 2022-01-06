@@ -1,31 +1,18 @@
 .grid{
     display: grid;
     gap: 5px;
-    height: 50vh;
-    grid-template: 
-    "header header header header" 1fr
-    "content content content nav" 2fr
-    "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+    height: 130vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    grid-auto-flow: row;
+    grid-auto-columns: 100px;
 }
 
-.header{
-    background-color: burlywood;
-    grid-area: header;
+.item:nth-child(odd){
+    background-color:palegoldenrod;
 }
 
-.content{
-    background-color: cornflowerblue;
-    grid-area: content ;
-
-}
-
-.nav{
-    background-color: lightcoral;
-    grid-area: nav;
-}
-
-.footer{
-    background-color: lightseagreen;
-    grid-area: footer;
+.item:nth-child(even){
+    background-color: lightskyblue;
 
 }
