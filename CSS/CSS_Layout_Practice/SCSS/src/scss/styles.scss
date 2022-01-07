@@ -1,26 +1,12 @@
 @import "_variables";
+@import "_mixins";
 
-body {
-  background-color: $bg;
-}
-
-h2{
-  font-size: $title;
-  color: red;
-}
-
-
-.box{
-  &.hover{
-    background-color: sandybrown;
+a {
+  margin-bottom: 10px;
+  &:nth-child(odd){
+    @include google("odd");
   }
-  h2 {
-    color:slategray;
-  }
-  button{
-    background-color: $btn;
-    color: white;
+  &:nth-child(even){
+    @include google("even");
   }
 }
-
-
