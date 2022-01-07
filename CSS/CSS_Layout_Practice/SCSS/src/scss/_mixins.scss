@@ -1,0 +1,9 @@
+@mixin google($word) {
+    text-decoration: none;
+    display: block;
+    @if $word == "odd"{
+        color: red;
+    } @else {
+    color: #1DDB16;
+    }
+}

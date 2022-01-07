@@ -1,6 +1,25 @@
-body {
-  background: peru;
+@import "_variables";
+@import "_mixins";
+@import "_extends";
+
+.google a {
+  margin-bottom: 10px;
+  &:nth-child(odd){
+    @include google("odd");
+  }
+  &:nth-child(even){
+    @include google("even");
+  }
+}
+
+.box{
   a {
-    color: blue;
+    @extend %button;
+    text-decoration: none;
+  }
+
+  button {
+    @extend %button;
+    border: none;
   }
 }
