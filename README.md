@@ -8,6 +8,7 @@
 <br>
 
 ***
+<br>
 
 ##### CSS_Layout_Practice 예시
  
@@ -17,12 +18,19 @@
     
 [CSS_Layout_Practice 배운 내용 자세히 보기](https://github.com/yeker12/Study-HTML-CSS/tree/main/CSS/CSS_Layout_Practice) 
 
+<br>
+
 ---
 
-##### CSS_challenge 한눈에 보기
+<br>
+
+##### CSS_challenge 한눈에 보기 (ch1~ch9)
 
 <img width="640" alt="ch" src="https://user-images.githubusercontent.com/94519234/152472860-57048b2e-cb96-42b4-a6bb-63b158c79188.png">
 
 
 [CSS_Challenge 자세히 보기](https://github.com/yeker12/Study-HTML-CSS/tree/main/CSS/CSS_challenge)
 
+<br>
+
+---
