@@ -9,11 +9,19 @@
 
 ***
 
-##### CSS_Layout_Practice 한눈에 보기
+##### CSS_Layout_Practice 예시
  
+   
 <img width="629" alt="css" src="https://user-images.githubusercontent.com/94519234/152470853-97a1a258-ceb3-4fcb-8da6-3f8ff45a7f59.png">
+
+    
+[CSS_Layout_Practice 배운 내용 자세히 보기](https://github.com/yeker12/Study-HTML-CSS/tree/main/CSS/CSS_Layout_Practice) 
 
 
 ##### CSS_challenge 한눈에 보기
 
+
+
+
+[CSS_Challenge 자세히 보기](https://github.com/yeker12/Study-HTML-CSS/tree/main/CSS/CSS_challenge)
 
